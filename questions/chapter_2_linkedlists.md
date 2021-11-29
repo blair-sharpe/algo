@@ -1,8 +1,8 @@
-## Linked Lists
+# Linked Lists
 
 [helpful link](https://techinterviewhandbook.org/algorithms/linked-list/)
 
-# Questions
+## Questions
 
 2.1 Write code to remove duplicates from an unsorted linked list.
 FOLLOW UP
