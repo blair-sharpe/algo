@@ -17,4 +17,4 @@ Challange yourself! This is a place to be better at coding challanges.
 
 ## Questions
 
-[Arrays](questions/chapter_1_arrays.md)
+[Chapter 1: Arrays](questions/chapter_1_arrays.md)
