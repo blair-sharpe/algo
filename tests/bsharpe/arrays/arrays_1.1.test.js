@@ -1,23 +1,56 @@
 const assert = require("assert");
-const isUnique = require("../../../solutions/bsharpe/arrays/arrays_1.1.js");
+const {
+  isUniqueWithSort,
+  isUniqueWithHashmap,
+} = require("../../../solutions/bsharpe/arrays/arrays_1.1.js");
 
-context("arrays 1.1", function () {
+describe("Chapter 1 Arrays: 1.1", function () {
   const uniqueString = "abcd";
-  const notUniqueString = "aaaa";
+  const notUniqueString = "aaaab";
+  const singleLetter = "b";
   const emptyString = "";
-  it("unique string should return true", function () {
-    const expected = true;
-    const actual = isUnique(uniqueString);
-    assert.strictEqual(actual, expected);
+  context("find if unique string with sort", function () {
+    it("unique string should return true", function () {
+      const expected = true;
+      const actual = isUniqueWithSort(uniqueString);
+      assert.strictEqual(actual, expected);
+    });
+    it("not unique string should return false", function () {
+      const expected = false;
+      const actual = isUniqueWithSort(notUniqueString);
+      assert.strictEqual(actual, expected);
+    });
+    it("empty string should return true", function () {
+      const expected = true;
+      const actual = isUniqueWithSort(emptyString);
+      assert.strictEqual(actual, expected);
+    });
+    it("single letter should return true", function () {
+      const expected = true;
+      const actual = isUniqueWithSort(singleLetter);
+      assert.strictEqual(actual, expected);
+    });
   });
-  it("not unique string should return false", function () {
-    const expected = false;
-    const actual = isUnique(notUniqueString);
-    assert.strictEqual(actual, expected);
-  });
-  it("empty string should return true", function () {
-    const expected = true;
-    const actual = isUnique(emptyString);
-    assert.strictEqual(actual, expected);
+  context("find if unique string with hashmap", function () {
+    it("unique string should return true", function () {
+      const expected = true;
+      const actual = isUniqueWithHashmap(uniqueString);
+      assert.strictEqual(actual, expected);
+    });
+    it("not unique string should return false", function () {
+      const expected = false;
+      const actual = isUniqueWithHashmap(notUniqueString);
+      assert.strictEqual(actual, expected);
+    });
+    it("empty string should return true", function () {
+      const expected = true;
+      const actual = isUniqueWithHashmap(emptyString);
+      assert.strictEqual(actual, expected);
+    });
+    it("single letter should return true", function () {
+      const expected = true;
+      const actual = isUniqueWithHashmap(singleLetter);
+      assert.strictEqual(actual, expected);
+    });
   });
 });
