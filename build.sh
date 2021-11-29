@@ -17,6 +17,7 @@ else
             -e TEST_FILE_PATH=$TEST_FILE_PATH \
             -it \
             -v $HOST_FILE_PATH:/code/$FILE_PATH \
+            -v $PWD/coverage:/code/coverage    \
             -v $HOST_TEST_FILE_PATH:/code/$TEST_FILE_PATH \
             --rm algorithms \
 

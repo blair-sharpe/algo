@@ -9,7 +9,7 @@
   "scripts": {
     "test:problem": "mocha --reporter min -w \"/code/$TEST_FILE_PATH\"",
     "test:all": "mocha --reporter landing \"/code/tests/**/**/*.test.js\"",
-    "test:coverage": "nyc --reporter=text-summary mocha --reporter landing \"/code/tests/**/**/*.test.js\""
+    "test:coverage": "nyc --reporter=html --reporter=text-summary mocha --reporter landing \"/code/tests/**/**/*.test.js\""
   },
   "author": "Blair Sharpe",
   "license": "ISC",
