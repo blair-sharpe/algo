@@ -1,5 +1,7 @@
 # Arrays
 
+[Helpful Tips](https://techinterviewhandbook.org/algorithms/array/)
+
 ## Problem Set
 
 1.1 Implement an algorithm to determine if a string has all unique characters. What if you
