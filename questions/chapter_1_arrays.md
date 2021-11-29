@@ -32,8 +32,6 @@ pale, pIe -> true
 pales. pale -> true
 pale. bale -> true
 pale. bake -> false
-Hints: #23, #97, #130
-\, , l'
 
 1.6 String Compression: Implement a method to perform basic string compression using the counts
 of repeated characters. For example, the string aabcccccaaa would become a2b1c5a3. If the
