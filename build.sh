@@ -2,7 +2,6 @@
 if [ "master_build" = "$1" ];
 then
     docker build --target coverage -qf ./Dockerfile -t algorithms .
-    docker run -it --rm algorithms
 else
     source config.sh
     docker build --target $TARGET -qf ./Dockerfile -t algorithms .

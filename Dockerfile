@@ -4,9 +4,9 @@ COPY package*.json .
 RUN npm install
 COPY . .
 FROM base as built
-FROM built as testall
+FROM built as test-all
 CMD npm run --silent test:all
-FROM built as testproblem
+FROM built as test-solution
 CMD npm run --silent test:problem
 FROM built as coverage
 CMD npm run --silent test:coverage
