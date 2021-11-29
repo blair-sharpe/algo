@@ -1,6 +1,6 @@
 # Algorithm Challanges
 
-Challenge yourself! This is a place to be better at coding challanges.
+challenge yourself! This is a place to be better at coding challanges.
 
 ## Setup
 
