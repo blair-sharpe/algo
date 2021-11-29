@@ -16,7 +16,7 @@ challenge yourself! This is a place to be better at coding challanges.
 1. [Chapter 1: Arrays](questions/chapter_1_arrays.md)
 2. [Chapter 2: Linked Lists](questions/chapter_2_linkedlists.md)
 
-## Contributions
+## Contributors
 
 <a href="https://github.com/blair-sharpe/algo/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=blair-sharpe/algo" />
