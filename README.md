@@ -4,7 +4,7 @@ Challange yourself! This is a place to be better at coding challanges.
 
 ## Setup
 
-1. pick a problem from the /questions folder
+1. pick a problem from the `/questions` folder
 2. create a folder that starts with the first letter of your first name and followed by your full lastname under `/solutions` folder
 3. create a folder with the name of the chapter you are working on under your folder name (ex. arrays)
 4. create a file for your solution with the corresponding chosen problem in the file name (ex. arrays_1.1.js)
