@@ -1,0 +1,22 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "Programming challanges",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test:problem": "mocha --reporter min -w \"./tests/$npm_config_user/**/$npm_config_file\"",
+    "test:all": "mocha --reporter landing \"./tests/**/**/*.test.js\"",
+    "test:coverage": "nyc --reporter=html --reporter=text mocha --reporter=nyan \"./tests/**/**/*.test.js\"",
+    "test:coverage:summary": "nyc --reporter=html --reporter=text-summary mocha --reporter landing \"./tests/**/**/*.test.js\""
+  },
+  "author": "Blair Sharpe",
+  "license": "ISC",
+  "dependencies": {
+    "codecov": "^3.8.3",
+    "mocha": "^9.1.3",
+    "mochawesome": "^7.0.1",
+    "nyc": "^15.1.0"
+  }
+}
