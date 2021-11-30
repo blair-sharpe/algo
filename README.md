@@ -11,6 +11,24 @@ Challenge yourself! This is a place to be better at coding challanges.
 5. complete steps 2 to 3 under the folder `tests` and name your file the same as your problem file but with .test.js extension (arrays_1.1.test.js)
 6. run `npm run test:all` or `npm run test:problem --user=${username}` or `npm run test:coverage`
 
+## Commands
+
+```bash
+
+# tests all solutions
+npm run test:all
+
+# tests the problem you are working on
+npm run test:problem --user=yourusername --file=yourfilename.test.js
+
+# runs test coverage summary
+npm run test:coverage:summary
+
+# runs test coverage with file names
+npm run test:coverage
+
+```
+
 ## Questions
 
 1. [Chapter 1: Arrays](questions/chapter_1_arrays.md)
