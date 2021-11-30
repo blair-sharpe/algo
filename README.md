@@ -1,6 +1,6 @@
 # Algorithm Challanges
 
-Challenge yourself! This is a place to be better at coding challanges.
+Challenge yourself! This is a place to be better at coding challanges. Chapters will be added every week.
 
 ## Setup
 
