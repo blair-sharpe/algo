@@ -9,6 +9,7 @@ Challenge yourself! This is a place to be better at coding challanges.
 3. create a folder with the name of the chapter you are working on under your folder name (ex. arrays)
 4. under that folder create a file for the solution with the corresponding chosen problem in the file name (ex. arrays_1.1.js)
 5. complete steps 2 to 3 under the folder `tests` and name your file the same as your problem file but with .test.js extension (arrays_1.1.test.js)
+6. run tests and make a pull request
 
 ## Commands
 
