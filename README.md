@@ -13,7 +13,7 @@ Challenge yourself! This is a place to be better at coding challanges.
 
 ## Commands
 
-```npm
+```bash
 
 # tests all solutions
 npm run test:all
