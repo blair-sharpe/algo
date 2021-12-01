@@ -4,7 +4,7 @@ Can't reverse a linked list? Embarrassing. Challenge yourself! This is a place t
 
 ## Setup
 
-1.  fork the repo
+1.  fork the repo or ask to be a collaborator 
 2.  pick a problem from the `/questions` folder
 3.  create a username folder that starts with the first letter of your first name and followed by your full lastname under `/solutions` folder
 4.  create a folder with the name of the chapter you are working on under your folder name (ex. arrays)
