@@ -10,7 +10,8 @@ Can't reverse a linked list? Embarrassing. Challenge yourself! This is a place t
 4.  create a folder with the name of the chapter you are working on under your folder name (ex. arrays)
 5.  under that folder create a file for the solution with the corresponding chosen problem in the file name (ex. arrays_1.1.js)
 6.  complete steps 2 to 3 under the folder `tests` and name your file the same as your problem file but with .test.js extension (arrays_1.1.test.js)
-7.  run tests and make a pull request
+7.  run tests **and** coverage 
+8.  make a pull request with label
 
 ## Commands
 
@@ -31,6 +32,8 @@ npm run test:coverage
 ```
 
 ## Questions
+
+[Introduction](https://techinterviewhandbook.org/algorithms/introduction/)
 
 1. [Chapter 1: Arrays](questions/chapter_1_arrays.md)
 2. [Chapter 2: Linked Lists](questions/chapter_2_linkedlists.md)
