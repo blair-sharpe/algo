@@ -1,6 +1,6 @@
 # Algorithm Challanges
 
-Challenge yourself! This is a place to be better at coding challanges. Chapters will be added every week.
+Can't reverse a linked list? Embarrassing. Challenge yourself! This is a place to be better at coding challanges. Chapters will be added every week.
 
 ## Setup
 
