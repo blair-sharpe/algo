@@ -11,7 +11,7 @@ Can't reverse a linked list? Embarrassing. Challenge yourself! This is a place t
 5.  under that folder create a file for the solution with the corresponding chosen problem in the file name (ex. arrays_1.1.js)
 6.  complete steps 2 to 3 under the folder `tests` and name your file the same as your problem file but with .test.js extension (arrays_1.1.test.js)
 7.  run tests **and** coverage 
-8.  make a pull request with label
+8.  make a pull request with a **label**
 
 ## Commands
 
