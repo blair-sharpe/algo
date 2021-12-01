@@ -32,7 +32,7 @@ class ListNode {
 }
 
 class LinkedList {
-  constructor(head = null) {
+  constructor(head) {
     this.head = head;
   }
 }
