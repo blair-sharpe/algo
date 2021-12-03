@@ -36,8 +36,8 @@ npm run test:coverage
 2. [Chapter 2: Linked Lists](questions/chapter_2_linkedlists.md)
  
 ### Helpful Links
-[Tech Interview Handbook](https://techinterviewhandbook.org/algorithms/introduction/) 
-[Quick Algo Refresher](https://www.programiz.com/dsa/algorithm)
+[Tech Interview Handbook](https://techinterviewhandbook.org/algorithms/introduction/)  
+[Quick Algo Refresher](https://www.programiz.com/dsa/algorithm)  
 [Asymptotic Notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation)  
 [Visualize Algorithms](https://visualgo.net/en)  
 
