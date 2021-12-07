@@ -16,6 +16,8 @@ Can't reverse a linked list? Embarrassing. Challenge yourself! This is a place t
 ## Commands
 
 ```bash
+# commitizen format
+npm run commit
 
 # tests all solutions
 npm run test:all
