@@ -17,6 +17,7 @@
   "dependencies": {
     "codecov": "^3.8.3",
     "commitizen": "^4.2.4",
+    "git-cz": "^4.8.0",
     "mocha": "^9.1.3",
     "mochawesome": "^7.0.1",
     "nyc": "^15.1.0"
@@ -26,7 +27,5 @@
       "path": "git-cz"
     }
   },
-  "devDependencies": {
-    "git-cz": "^4.8.0"
-  }
+  "devDependencies": {}
 }
