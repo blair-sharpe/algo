@@ -16,14 +16,10 @@ const palindromePermutation = (s) => {
     .toLowerCase()
     .split("")
     .filter((l) => l !== " ");
-  s.forEach((l) => (h.hasOwnProperty(l) ? h[l]++ : (h[l] = 1)));
+  s.forEach((l) => (l in h ? h[l]++ : (h[l] = 1)));
   Object.values(h).forEach((n) => {
-    if (n % 2 !== 0) {
-      o++;
-    }
+    if (n % 2 !== 0) o++;
   });
-  s;
-  o;
   if (s.length % 2 === 0 && o > 0) return false;
   if (s.length % 2 !== 0 && o > 1) return false;
   return true;
