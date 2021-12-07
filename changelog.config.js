@@ -4,7 +4,7 @@ module.exports = {
   list: ["arrays", "lists", "other"],
   maxMessageLength: 64,
   minMessageLength: 3,
-  questions: ["type", "subject", "lerna"],
+  questions: ["type", "subject"],
   scopes: [],
   types: {
     arrays: {
