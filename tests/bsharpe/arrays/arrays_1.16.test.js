@@ -10,7 +10,7 @@ const emptyArray = [];
 describe("Chapter 1 Arrays: 1.16", function () {
   context("bsharpe", function () {
     context("find largest element in rotated array", function () {
-      it("Should return max of target when searching", function () {
+      it("Should return max element in rotated arrays", function () {
         let actual;
         const expected = 5;
         for (let i = 0; i <= sortedArray.length - 1; i++) {
@@ -19,7 +19,7 @@ describe("Chapter 1 Arrays: 1.16", function () {
           strictEqual(actual, expected);
         }
       });
-      it("Should return max of target when searching a single element array", function () {
+      it("Should return single element when finding max in a single element array", function () {
         const expected = 3;
         const actual = findLargestElementInRotatedArray(singleElement);
         strictEqual(actual, expected);
