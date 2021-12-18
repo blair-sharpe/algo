@@ -53,3 +53,5 @@ as to make a loop in the linked list.
 EXAMPLE
 Input: A -> B -> C -> D -> E -> C [the same C as earlier]
 Output: C
+
+[next chapter](https://github.com/blair-sharpe/algo/blob/master/questions/chapter_3_stacks%26queues.md)
