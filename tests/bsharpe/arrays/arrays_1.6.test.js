@@ -13,7 +13,6 @@ describe("Chapter 1 Arrays: 1.6", function () {
       it("should compress a string with multiple letters", function () {
         const expected = "a2b1c5a3";
         const actual = stringCompression(stringOfRepeatingCharacters);
-        console.log(actual);
         strictEqual(actual, expected);
       });
       it("should return same string if compressed is same length", function () {
