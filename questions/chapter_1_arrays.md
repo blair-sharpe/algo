@@ -1,6 +1,6 @@
 # Arrays
 
-[Helpful Tips](https://techinterviewhandbook.org/algorithms/array/)
+[Helpful Tips](https://techinterviewhandbook.org/algorithms/array/)  
 [Sliding Windows](https://medium.com/outco/how-to-solve-sliding-window-problems-28d67601a66)
 
 ## Problem Set
