@@ -106,5 +106,5 @@ If there is no substring from s that can be changed to its corresponding substri
 
 1.26 Given a string s consisting only of characters a, b and c. Return the number of substrings containing at least one occurrence of all these characters a, b and c.
 
-1.27 Given an array of integers nums and an integer limit, return the size of the longest non-empty subarray such that the absolute difference between any two elements of this subarray is less than or equal to limit.
+1.27 Given an array of integers nums and an integer limit, return the size of the longest non-empty subarray such that the absolute difference between any two elements of this subarray is less than or equal to limit.  
 [next chapter](chapter_2_linkedlists.md)
