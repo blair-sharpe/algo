@@ -1,6 +1,6 @@
 # Arrays
 
-[Helpful Tips](https://techinterviewhandbook.org/algorithms/array/)  
+[Helpful Tips](https://techinterviewhandbook.org/algorithms/array/)
 [Sliding Windows](https://medium.com/outco/how-to-solve-sliding-window-problems-28d67601a66)
 
 ## Problem Set
@@ -17,7 +17,7 @@ length of the string. (Note: If implementing in Java, please use a character arr
 perform this operation in place.)
 EXAMPLE
 Input: "Mr John Smith "J 13
-Output: "Mr%20J ohn%20Smith"
+Output: "Mr%20John%20Smith"
 
 1.4 Palindrome Permutation: Given a string, write a function to check if it is a permutation of a palindrome. A palindrome is a word or phrase that is the same forwards and backwards. A permutation
 is a rearrangement of letters. The palindrome does not need to be limited to just dictionary words.
@@ -49,8 +49,8 @@ column are set to O.
 of another. Given two strings, 51 and 52, write code to check if 52 is a rotation of 51 using only one
 call to isSubstring (e.g., "waterbottle" is a rotation of"erbottlewat").
 
-1.10  Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
-You may assume that each input would have exactly one solution, and you may not use the same element twice. 
+1.10 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
 You can return the answer in any order.
 
 1.12 Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
@@ -62,7 +62,7 @@ is possibly rotated at an unknown pivot index k (1 <= k < nums.length) such that
 Given the array nums after the possible rotation and an integer target, return the index of target if it is in nums, or -1 if it is not in nums.
 You must write an algorithm with O(log n) runtime complexity.
 
-1.14 You are given an array of integers nums, there is a sliding window of size k which is moving from the very left of the array to the very right. 
+1.14 You are given an array of integers nums, there is a sliding window of size k which is moving from the very left of the array to the very right.
 You can only see the k numbers in the window. Each time the sliding window moves right by one position. Return the max sliding window.
 
 1.15 Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
@@ -99,5 +99,5 @@ If there is no substring from s that can be changed to its corresponding substri
 
 1.25 Given a string s consisting only of characters a, b and c. Return the number of substrings containing at least one occurrence of all these characters a, b and c.
 
-1.26 Given an array of integers nums and an integer limit, return the size of the longest non-empty subarray such that the absolute difference between any two elements of this subarray is less than or equal to limit.  
+1.26 Given an array of integers nums and an integer limit, return the size of the longest non-empty subarray such that the absolute difference between any two elements of this subarray is less than or equal to limit.
 [next chapter](chapter_2_linkedlists.md)
