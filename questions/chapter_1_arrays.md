@@ -45,8 +45,8 @@ bytes, write a method to rotate the image by 90 degrees. (an you do this in plac
 1.8 Zero Matrix: Write an algorithm such that if an element in an MxN matrix is 0, its entire row and
 column are set to O.
 
-1.9 String Rotation: Assume you have a method isSubst ring which checks if one word is a substring
-of another. Given two strings, 51 and 52, write code to check if 52 is a rotation of 51 using only one
+1.9 String Rotation: Assume you have a method isSubstring which checks if one word is a substring
+of another. Given two strings, s1 and s2, write code to check if s2 is a rotation of s2 using only one
 call to isSubstring (e.g., "waterbottle" is a rotation of"erbottlewat").
 
 1.10 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
@@ -62,13 +62,13 @@ is possibly rotated at an unknown pivot index k (1 <= k < nums.length) such that
 Given the array nums after the possible rotation and an integer target, return the index of target if it is in nums, or -1 if it is not in nums.
 You must write an algorithm with O(log n) runtime complexity.
 
+## Know your windows
+
 1.14 You are given an array of integers nums, there is a sliding window of size k which is moving from the very left of the array to the very right.
 You can only see the k numbers in the window. Each time the sliding window moves right by one position. Return the max sliding window.
 
 1.15 Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
 A subarray is a contiguous part of an array.
-
-## Know your windows
 
 1.16 Given two strings s and t of lengths m and n respectively, return the minimum window substring of s such that every character in t (including duplicates) is included in the window. If there is no such substring, return the empty string "". The testcases will be generated such that the answer is unique. A substring is a contiguous sequence of characters within the string.
 
